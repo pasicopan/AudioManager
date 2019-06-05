@@ -1,0 +1,21 @@
+.intro {
+  padding: 20rpx;
+  margin-top: 30px;
+  text-align: center;
+}
+.des {
+  padding: 20rpx;
+  font-size: 34rpx;
+  color: #111;
+}
+.voice_list {
+  border-top: 2rpx solid #000;
+  padding: 30rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+.voice_list .voice_item {
+  border-bottom: 1rpx solid #e9e9e9;
+  padding-bottom: 30rpx;
+  margin-bottom: 30rpx;
+}

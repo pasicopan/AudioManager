@@ -1,0 +1,17 @@
+<block>
+  <view class="voice_item_title">{{item.title}}</view>
+  <view class="voice_item_author">
+    <image class="avatar" src="{{item.avatar}}" />
+    <text class="name">{{item.singer}}</text>
+  </view>
+  <view class="voice_answer">
+    <view class="audio_container" catchtap="togglePlayAudio" style="width:{{audioContainerWidth}}rpx">
+      <view class="audio_content">
+        <image class="audio_status_icon {{statusText==='正在播放'?'active':''}}" src="https://gz-static-1257236698.cos.ap-guangzhou.myqcloud.com/bnx/icon_voice@2x.png" />
+        <view class="audio_status_text">{{statusText}}</view>
+        <view class="audio_status_time">{{timeText}}</view>
+      </view>
+      <view class="audio_progress" style="width:{{currentTimeWidthPercent}}%"></view>
+    </view>
+  </view>
+</block>

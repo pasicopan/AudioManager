@@ -1,0 +1,21 @@
+{
+  "pages": ["pages/index/index"],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "miniprogram": {
+    "current": 1,
+    "list": [
+      {
+        "id": 0,
+        "name": "列表",
+        "pathName": "pages/index/index",
+        "query": ""
+      }
+    ]
+  }
+}

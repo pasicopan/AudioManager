@@ -1,0 +1,8 @@
+<view class="intro">AudioManager</view>
+<view class="des">一款小程序原生代码编写的背景音乐播放管理器</view>
+<view class="des">统一了资源管理，按需记录播放进度，通过事件分发同步全部界面的播放状态</view>
+<view class="voice_list" slot="">
+  <navigator url="../voicedetail/detail?id={{item.id}}" class="voice_item" hover-class="none" wx:for="{{list}}" wx:key="idx" wx:for-index="idx" wx:for-item="item">
+    <VoiceItem item="{{item}}"></VoiceItem>
+  </navigator>
+</view>
