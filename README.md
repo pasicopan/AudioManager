@@ -1,14 +1,17 @@
 ## AudioManager
 
 - 一款小程序原生代码编写的背景音乐播放管理器,统一了资源管理，按需记录播放进度，通过事件分发同步全部界面的播放状态
+- 小程序 sdk2.4.0 测试通过
 
 ### screenshot
 
 ![image](https://raw.githubusercontent.com/pasicopan/AudioManager/master/audiomanager.gif)
 
-### wechat share snippet
+### wechat share snippet/ 微信小程序代码片段分享链接
 
-[https://developers.weixin.qq.com/s/mBPv0TmW7T8v](https://developers.weixin.qq.com/s/mBPv0TmW7T8v)
+- 注意：从 1.02.1812180 开始代码片段格式更换，旧版本 IDE 将无法导入该版本及之后的 IDE 分享的代码片段
+- 注意：IDE(1.02.1905151) 打开代码片段，播放功能异常。在有 appid 的正式项目里面，能正常播放[在社区提 bug 了，等结果](https://developers.weixin.qq.com/community/develop/doc/000c4c50f405107098a8d1a3b56800)
+- [https://developers.weixin.qq.com/s/CqTL4Tmw7481](https://developers.weixin.qq.com/s/CqTL4Tmw7481)
 
 ### how to use
 

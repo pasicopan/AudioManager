@@ -1,5 +1,5 @@
 {
-  "pages": ["pages/index/index"],
+  "pages": ["pages/index/index", "pages/voicedetail/detail"],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
@@ -17,5 +17,6 @@
         "query": ""
       }
     ]
-  }
+  },
+  "requiredBackgroundModes": ["audio"]
 }

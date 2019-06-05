@@ -136,6 +136,7 @@ class Bam {
   // 背景音频只有单一播放源，这里统一播放接口
   // 续播
   play() {
+    console.log("Bam play")
     this.replay()
     BAM.pause()
     // FIXME: ios 需要setTimeout，开发工具不需要，造成有一些回调
