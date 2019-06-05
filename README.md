@@ -8,12 +8,12 @@
 
 ### wechat share snippet
 
-[https://developers.weixin.qq.com/s/76Sq6Hm27A8d](https://developers.weixin.qq.com/s/76Sq6Hm27A8d)
+[https://developers.weixin.qq.com/s/mBPv0TmW7T8v](https://developers.weixin.qq.com/s/mBPv0TmW7T8v)
 
 ### how to use
 
 ```javascript
-const AudioManager = require("../../audioManager.js")
+const AudioManager = require("../../audioManager.js") // 引入核心文件audioManager.js
 Component({
   data: {
     singer: "", // 歌手
