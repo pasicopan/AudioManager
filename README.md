@@ -11,7 +11,8 @@
 
 - 注意：从 1.02.1812180 开始代码片段格式更换，旧版本 IDE 将无法导入该版本及之后的 IDE 分享的代码片段
 - 注意：IDE(1.02.1905151) 直接在 chrome 打开分享网址好像调不起开发工具，请手动在开发工具选择导入片段
-- [https://developers.weixin.qq.com/s/SIXmPUmU7e86](https://developers.weixin.qq.com/s/SIXmPUmU7e86)
+- 注意：IDE(1.02.1905151) 里面对音频源的限制好像加强了，测试的时候使用随便网上找到音频网址可能会播放不了。该 demo 使用的微信开发文档的音频案例
+- [https://developers.weixin.qq.com/s/JA0W5Vmj728y](https://developers.weixin.qq.com/s/JA0W5Vmj728y)
 
 ### how to use
 
