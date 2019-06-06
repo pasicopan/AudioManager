@@ -139,7 +139,7 @@ class Bam {
     console.log("Bam play")
     this.replay()
     BAM.pause()
-    // FIXME: ios 需要setTimeout，开发工具不需要，造成有一些回调
+    // FIXME: ios 需要setTimeout 才能使seek 生效，开发工具不需要。会有一些误差
     setTimeout(() => {
       BAM.seek(this.controllingAudio.currentTime)
       BAM.play()

@@ -10,8 +10,8 @@
 ### wechat share snippet/ 微信小程序代码片段分享链接
 
 - 注意：从 1.02.1812180 开始代码片段格式更换，旧版本 IDE 将无法导入该版本及之后的 IDE 分享的代码片段
-- 注意：IDE(1.02.1905151) 打开代码片段，播放功能异常。在有 appid 的正式项目里面，能正常播放[在社区提 bug 了，等结果](https://developers.weixin.qq.com/community/develop/doc/000c4c50f405107098a8d1a3b56800)
-- [https://developers.weixin.qq.com/s/CqTL4Tmw7481](https://developers.weixin.qq.com/s/CqTL4Tmw7481)
+- 注意：IDE(1.02.1905151) 直接在 chrome 打开分享网址好像调不起开发工具，请手动在开发工具选择导入片段
+- [https://developers.weixin.qq.com/s/SIXmPUmU7e86](https://developers.weixin.qq.com/s/SIXmPUmU7e86)
 
 ### how to use
 
